@@ -10,6 +10,8 @@ body, html{
     background-image: linear-gradient(pink, rgb(234, 92, 206));
     display: flex;
     align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card{
@@ -28,3 +30,13 @@ img{
     border: 5px solid white;
 }
 
+h5, h2{
+    padding-left: 60px;
+}
+
+p{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: 10px;
+}
