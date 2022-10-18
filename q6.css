@@ -20,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 img {
@@ -85,4 +86,12 @@ input[type="submit"]{
     border-radius: 20px;
     border: none;
     width: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    font-size: 10px;
 }
