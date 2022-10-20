@@ -1,0 +1,9 @@
+.default {
+  color: red;
+  font-size: 2em;
+}
+
+.welcome {
+  color: blue;
+  font-size: 50px;
+}
