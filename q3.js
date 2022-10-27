@@ -17,7 +17,6 @@ let info = [
     }
 ]
 function sortByAge(array){
-    array.sort((a,b) => a.age-b.age);
+    return array.sort((a,b) => a.age-b.age);
 }
-sortByAge(info);
-console.log(info);
+console.log(sortByAge(info));

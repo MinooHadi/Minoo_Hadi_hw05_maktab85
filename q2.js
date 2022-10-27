@@ -14,7 +14,7 @@ let stepCounter = {
     this.step = 0;
     return this;
   },
-  read: function () {
+  read () {
     console.log(this.step);
     return this;
   },
